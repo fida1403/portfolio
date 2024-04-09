@@ -29,7 +29,7 @@
     margin-right: 50%;
     color: white;
     margin-top: 140px;
-    animation: slideIn 3s ease forwards;
+    animation: slideIn 4s ease forwards;
 }
 
 .header-text h1{
@@ -58,7 +58,9 @@
 
 @media (max-width: 840px){
     .header-text{
-        margin-top: 110px;
+        margin-top: 90px;
+        margin-right: 50px;
+        display: block;
     }
 
     .btn.download{
