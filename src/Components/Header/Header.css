@@ -1,0 +1,70 @@
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(216, 161, 115, 0.363),rgba(226, 115, 87, 0.7)), url('../../Assets/blue-toned-collection-paper-sheets-with-copy-space_23-2148320445.avif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.header a{
+    color: black;
+}
+
+.header-text{
+    max-width: 80%;
+    margin-right: 50%;
+    color: white;
+    margin-top: 140px;
+    animation: slideIn 3s ease forwards;
+}
+
+.header-text h1{
+    font-size: 50px;
+}
+
+.header span{
+    color: #EE4C7C;
+}
+
+.btn.download{
+    margin-top: 20px;
+}
+
+
+/* ..............media............ */
+@media (max-width: 1000px){
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header{
+        width: 100%;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 840px){
+    .header-text{
+        margin-top: 110px;
+    }
+
+    .btn.download{
+        width: 170px;
+        padding: 10px 10px;
+    }
+}
+
+

@@ -1,0 +1,78 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.about-left{
+    flex-basis: 40%;
+    max-width: 50%;
+}
+
+.about-left img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(1, 2, 5, 0.5), 0 10px 20px 0 rgba(2, 0, 9, 0.19);
+}
+
+.about-right{
+    flex-basis: 48%;
+    width: 50%;
+}
+
+.about-right h2{
+    top: 0;
+    font-size: 35px;
+}
+
+.about-right p{
+    margin-top: 10px;
+}
+
+.about-right h3{
+    margin-top: 30px;
+}
+
+.about-right span{
+    color: rgb(139, 128, 128);
+}
+
+.subdiv-about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subdiv-about .experience{
+    order: 2;
+}
+
+.subdiv-about .education li{
+  margin-top: 10px;
+}
+
+.subdiv-about .education p{
+    margin-top: 0;
+}
+
+@media (max-width: 750px){
+    .about{
+        display: block;
+    }
+    .about-left{
+        max-width: 85%;
+    }
+    .about-right{
+        margin-top: 25px;
+        order: 1;
+        width: 90%;
+    }
+    .about-right h2{
+        font-size: 30px;
+    }
+    .subdiv-about{
+        display: inline;
+    }
+
+}
