@@ -48,7 +48,7 @@ nav ul li a:hover{
 
 @media (max-width: 1000px){
     .nav-logo{
-        width: 120px;
+        width: 150px;
     }
     nav ul li{
         margin: 10px 10px;
@@ -65,8 +65,8 @@ nav ul li a:hover{
         top: 0;
         right: 0;
         bottom: 0;
-        background: #9A1750;
         z-index: -1;
+        background: #9A1750;
         width: 200px;
         padding-top: 70px;
         transition: 0.5s;
