@@ -8,7 +8,7 @@ function Header() {
     <div className='header container'> 
       <div className='header-text'>
         <h1>Hi, I'm FIDA FATHIMA</h1>
-        <h2>Frontend Developer</h2>
+        <h2>Software Developer</h2>
         <button className='btn download'><a href={resume} download>Download CV</a></button>
       </div>
     </div>

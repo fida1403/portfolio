@@ -10,10 +10,10 @@ function About() {
       </div>
       <div className='about-right'>
         <h2>About Me</h2>
-        <p>Hey, I'm a frontend developer passionate about crafting delightful user experiences on the web.
-             My focus is on crafting clean, intuitive interfaces using HTML, CSS, and JavaScript.
-             With a passion for problem-solving and attention to detail, I thrive on creating user-centric designs that captivate and engage.
-              Let's collaborate and bring your vision to life!</p>
+        <p>Hey there, I'm passionate about software development and computer programming, where I can leverage my experience 
+          and technical skills to design and develop user-friendly web interfaces. I'm dedicated to constantly improving my 
+          technical abilities and staying up-to-date with the latest technologies and industry trends. I thrive in collaborative 
+          and dynamic environments, where I can contribute to the team and organization's success. Let's collaborate and bring your vision to life!</p>
         <div className='subdiv-about'>
           <div className='experience'>
             <h3>EXPERIENCE</h3>
