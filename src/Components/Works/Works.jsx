@@ -1,6 +1,6 @@
 import React from 'react'
 import './Works.css'
-import movie_img from '../../Assets/MovieApp.png'
+import weather_app from '../../Assets/Weather-app.png'
 import education_img from '../../Assets/educationWebsite.png'
 import car_img from '../../Assets/carwebsite.png'
 
@@ -11,9 +11,9 @@ function Works() {
     window.open('https://xtremeauto.netlify.app/', '_blank')
   }
 
-  const handlemovieapp = (event) => {
+  const handleWeatherApp = (event) => {
     event.preventDefault();
-    window.open('https://movie-cards-search.netlify.app/', '_blank')
+    window.open('https://weather-app-react-first.netlify.app/', '_blank')
   }
 
   const handlecollege = (event) => {
@@ -24,10 +24,10 @@ function Works() {
   return (
     <div className='works'>
         <div className='work'>
-            <img src={movie_img} alt='' />
+            <img src={weather_app} alt='' />
             <div className='caption'>
-              <i class="fa-solid fa-arrow-up-right-from-square" onClick={handlemovieapp}></i>
-              <p>Movie Cards App</p>
+              <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleWeatherApp}></i>
+              <p>Weather App</p>
             </div>
         </div>
         <div className='work'>
