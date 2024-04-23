@@ -3,6 +3,7 @@ import './Works.css'
 import weather_app from '../../Assets/Weather-app.png'
 import education_img from '../../Assets/educationWebsite.png'
 import car_img from '../../Assets/carwebsite.png'
+import netflix_img from '../../Assets/netflix.png'
 
 function Works() {
 
@@ -21,13 +22,25 @@ function Works() {
     window.open('https://edusity-college.netlify.app/', '_blank')
   }
 
+  const handleNetflix = (event) => {
+    event.preventDefault();
+    window.open('https://netflix-clone-b37ea.web.app/', '_blank')
+  }
+
   return (
     <div className='works'>
         <div className='work'>
-            <img src={weather_app} alt='' />
+            <img src={car_img} alt='' />
             <div className='caption'>
-              <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleWeatherApp}></i>
-              <p>Weather App</p>
+                <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleCar}></i>
+                <p>Car Website</p>
+            </div>
+        </div>
+        <div className='work'>
+            <img src={netflix_img} alt='' />
+            <div className='caption'>
+                <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleNetflix}></i>
+                <p>Netflix App</p>
             </div>
         </div>
         <div className='work'>
@@ -38,10 +51,10 @@ function Works() {
             </div>
         </div>
         <div className='work'>
-            <img src={car_img} alt='' />
+            <img src={weather_app} alt='' />
             <div className='caption'>
-                <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleCar}></i>
-                <p>Car Website</p>
+              <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleWeatherApp}></i>
+              <p>Weather App</p>
             </div>
         </div>
     </div>

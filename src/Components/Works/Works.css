@@ -2,6 +2,7 @@
     width: 90%;
     margin: 90px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -16,6 +17,7 @@
 .work{
     flex-basis: 32%;
     position: relative;
+    margin-top: 10px;
 }
 
 .caption{
@@ -40,7 +42,6 @@
 .work:hover .caption{
     opacity: 1;
     padding-top: 0;
-
 }
 
 
