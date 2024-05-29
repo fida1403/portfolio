@@ -4,6 +4,7 @@ import weather_app from '../../Assets/Weather-app.png'
 import education_img from '../../Assets/educationWebsite.png'
 import car_img from '../../Assets/carwebsite.png'
 import netflix_img from '../../Assets/netflix.png'
+import Quiz_img from '../../Assets/Quiz-img.png'
 
 function Works() {
 
@@ -27,8 +28,20 @@ function Works() {
     window.open('https://netflix-clone-b37ea.web.app/', '_blank')
   }
 
+  const handleQuiz = (event) => {
+    event.preventDefault();
+    window.open('https://quiz-try-app.netlify.app/', '_blank')
+  }
+
   return (
     <div className='works'>
+        <div className='work'>
+            <img src={Quiz_img} alt='' />
+            <div className='caption'>
+                <i class="fa-solid fa-arrow-up-right-from-square" onClick={handleQuiz}></i>
+                <p>Quiz App</p>
+            </div>
+        </div>
         <div className='work'>
             <img src={car_img} alt='' />
             <div className='caption'>
